@@ -3,6 +3,7 @@
     --cinza-secundario: gray;
     --botao-azul: rgb(0, 102, 255);
     --cor-de-fundo: black;
+    --botao-azul-efeito: rgb(255, 124, 124);
     --fonte-principal: 'Poppins'
 }
 
@@ -125,4 +126,47 @@ body {
 .dispositivos__favoritos{
     font-size: 48px;
     color: var(--branco-principal);
+}
+
+.rodape__lista{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin-top: 1em;
+}
+
+.lista__link a{
+    text-decoration: none;
+    color: var(--branco-principal);
+    margin: 0 16px 0 16px;
+    font-size: 14px;
+}
+
+.rodape__texto{
+    margin: 1em 0;
+    color: var(--cinza-secundario);
+    font-size: 12px;
+}
+
+.rodape{
+    text-align: center;
+    margin: 5em 3em;
+}
+
+.lista__link a:hover{
+    color: rgb(179, 0, 0);
+}
+
+.lista__link a:active{
+    color: rgb(255, 147, 147);
+}
+
+.container__botao:hover{
+    background-color: var(--botao-azul-efeito);
+    color: black;
+}
+
+.container__botao1:hover{
+    background-color: var(--botao-azul-efeito);
+    color: black;
 }
